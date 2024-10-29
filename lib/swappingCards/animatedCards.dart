@@ -36,9 +36,9 @@ class SwappingCardsState extends State<SwappingCards> {
     if (clickAmount > 1) {
       setState(() {
         index1 =
-            (index1 + 1) % listOfCardsLength(); // Cycle through the containers
+            (index1 + 1) % listOfCardsLength();
         index2 =
-            (index2 + 1) % listOfCardsLength(); // Cycle through the containers
+            (index2 + 1) % listOfCardsLength();
       });
     }
   }
