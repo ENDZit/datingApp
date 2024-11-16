@@ -57,9 +57,10 @@ flutter:
   assets:
     - assets/chomper.jpg
     - assets/nastia.jpg
-    - assets/ivanBlue.jpg
     - assets/ivanGreen.jpg
     - assets/ivanBlack.jpg
+    - assets/mandarinki.jpg
+
      # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
