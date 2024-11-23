@@ -1,4 +1,4 @@
-import 'package:animated_app/swappingCards/listOfCards.dart';
+import 'package:animated_app/swapping_cards/list_of_cards.dart';
 import 'package:flutter/material.dart';
 import '../main.dart';
 import 'package:simple_animations/simple_animations.dart';

@@ -1,8 +1,8 @@
-import 'package:animated_app/swappingCards/animatedCards.dart';
+import 'package:animated_app/swapping_cards/animated_cards.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_app/colors.dart';
 import 'package:animated_app/buttons/buttons.dart';
-import 'package:animated_app/userInformationAndPhoto/information.dart';
+import 'package:animated_app/user_information_and_photo/information.dart';
 
 List<Widget> listOfCards(SwappingCardsState state) {
   return [

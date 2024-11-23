@@ -1,10 +1,7 @@
-import 'package:animated_app/swappingCards/listOfCards.dart';
 import 'package:flutter/material.dart';
-import 'package:simple_animations/simple_animations.dart';
-import 'package:animated_app/swappingCards/animatedCards.dart';
-import 'colors.dart';
-import 'package:animated_app/staticInterface/topRow.dart';
-import 'package:animated_app/staticInterface/bottomRow.dart';
+import 'package:animated_app/swapping_cards/animated_cards.dart';
+import 'package:animated_app/static_interface/top_row.dart';
+import 'package:animated_app/static_interface/bottom_row.dart';
 
 void main() {
   runApp(const MyApp());

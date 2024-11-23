@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:animated_app/colors.dart';
-import 'package:animated_app/swappingCards/animatedCards.dart';
+import 'package:animated_app/swapping_cards/animated_cards.dart';
 
 Widget downArrowButton(Color color){
   return Container(
