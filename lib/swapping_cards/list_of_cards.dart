@@ -12,7 +12,7 @@ List<Widget> listOfCards(SwappingCardsState state) {
       height: 550,
       margin: const EdgeInsets.fromLTRB(15, 5, 15, 10),
       decoration: BoxDecoration(
-          color: myCustomGreenForContainer,
+          color: greenForContainer,
           borderRadius: BorderRadius.circular(16),
           boxShadow: const [
             BoxShadow(
@@ -25,7 +25,7 @@ List<Widget> listOfCards(SwappingCardsState state) {
         children: [
           Stack(
             children: [
-              userPhoto('assets/ivanGreen.jpg'),
+              UserPhoto( image: 'assets/ivanGreen.jpg'),
               Row(
                 children: [
                   crossButton(),
@@ -38,11 +38,11 @@ List<Widget> listOfCards(SwappingCardsState state) {
             children: [
               Row(
                 children: [
-                  username('Ivan , 19'),
-                  downArrowButton(myCustomGreenForContainer),
+                  Username( text: 'Ivan , 19'),
+                  downArrowButton(greenForContainer),
                 ],
               ),
-              userLocation('Slavyansk , Ukraine'),
+              UserLocation( location: 'Slavyansk , Ukraine'),
             ],
           )
         ],
@@ -55,7 +55,7 @@ List<Widget> listOfCards(SwappingCardsState state) {
       height: 550,
       margin: const EdgeInsets.fromLTRB(15, 5, 15, 10),
       decoration: BoxDecoration(
-          color: myCustomCyanForContainer,
+          color: cyanForContainer,
           borderRadius: BorderRadius.circular(16),
           boxShadow: const [
             BoxShadow(
@@ -68,7 +68,7 @@ List<Widget> listOfCards(SwappingCardsState state) {
         children: [
           Stack(
             children: [
-              userPhoto('assets/ivanBlack.jpg'),
+              UserPhoto( image: 'assets/ivanBlack.jpg'),
               Row(
                 children: [
                   crossButton(),
@@ -81,11 +81,11 @@ List<Widget> listOfCards(SwappingCardsState state) {
             children: [
               Row(
                 children: [
-                  username('Still Ivan , 19'),
-                  downArrowButton(myCustomCyanForContainer),
+                  Username(text: 'Still Ivan , 19'),
+                  downArrowButton(cyanForContainer),
                 ],
               ),
-              userLocation('Kyiv , Ukraine'),
+              UserLocation( location: 'Kyiv , Ukraine'),
             ],
           )
         ],
@@ -98,7 +98,7 @@ List<Widget> listOfCards(SwappingCardsState state) {
       height: 550,
       margin: const EdgeInsets.fromLTRB(15, 5, 15, 10),
       decoration: BoxDecoration(
-          color: myCustomPurpleForContainer,
+          color: purpleForContainer,
           borderRadius: BorderRadius.circular(16),
           boxShadow: const [
             BoxShadow(
@@ -111,7 +111,7 @@ List<Widget> listOfCards(SwappingCardsState state) {
         children: [
           Stack(
             children: [
-              userPhoto('assets/nastia.jpg'),
+              UserPhoto( image: 'assets/nastia.jpg'),
               Row(
                 children: [
                   crossButton(),
@@ -124,11 +124,11 @@ List<Widget> listOfCards(SwappingCardsState state) {
             children: [
               Row(
                 children: [
-                  username('Anastasia, 19'),
-                  downArrowButton(myCustomPurpleForContainer),
+                  Username( text: 'Anastasia, 19'),
+                  downArrowButton(purpleForContainer),
                 ],
               ),
-              userLocation('Brovary , Ukraine'),
+              UserLocation( location: 'Brovary , Ukraine'),
             ],
           )
         ],
@@ -141,7 +141,7 @@ List<Widget> listOfCards(SwappingCardsState state) {
       height: 550,
       margin: const EdgeInsets.fromLTRB(15, 5, 15, 10),
       decoration: BoxDecoration(
-          color: myCustomBlueForContainer,
+          color: blueForContainer,
           borderRadius: BorderRadius.circular(16),
           boxShadow: const [
             BoxShadow(
@@ -154,7 +154,7 @@ List<Widget> listOfCards(SwappingCardsState state) {
         children: [
           Stack(
             children: [
-              userPhoto('assets/mandarinki.jpg'),
+              UserPhoto( image: 'assets/mandarinki.jpg'),
               Row(
                 children: [
                   crossButton(),
@@ -167,11 +167,11 @@ List<Widget> listOfCards(SwappingCardsState state) {
             children: [
               Row(
                 children: [
-                  username('Mandarinki'),
-                  downArrowButton(myCustomBlueForContainer),
+                  Username( text: 'Mandarinki'),
+                  downArrowButton(blueForContainer),
                 ],
               ),
-              userLocation('Dish'),
+              UserLocation( location: 'Dish'),
             ],
           )
         ],

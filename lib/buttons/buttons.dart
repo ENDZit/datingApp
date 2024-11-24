@@ -41,7 +41,7 @@ Widget checkButton(SwappingCardsState state){
       height: 60,
       margin: const EdgeInsets.fromLTRB(50, 380, 0, 0),
       decoration: BoxDecoration(
-        color: myCustomPink,
+        color: customPink,
         border: Border.all(
           color: Colors.black,
           width: 2,
@@ -75,7 +75,7 @@ Widget crossButton(){
       height: 60,
       margin: const EdgeInsets.fromLTRB(100, 380, 0, 0),
       decoration: BoxDecoration(
-        color: myCustomYellow,
+        color: customYellow,
         border: Border.all(
           color: Colors.black,
           width: 2,
